@@ -116,7 +116,7 @@ public class MapCompute {
     public String totalHashmapContents() {
         String output = "Here is the current contents of our hashmap:\n";
         for (String word : page_map.keySet()) {
-            output = output + "Word: '" + word + "' Occurences: " + page_map.get(word) + "\n";
+            output = output + "Word: '" + word + "' Occurrences: " + page_map.get(word) + "\n";
         }
         return output;
     }
